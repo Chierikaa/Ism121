@@ -1,0 +1,114 @@
+body {
+    background-color: brown;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1 {
+    margin: 0px;
+}
+h2{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(216, 77, 170);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: blueviolet;
+}
+.navbar li{
+    float: left;
+}
+*{
+    margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;  
+}
+.contact{
+    min-height: 100vh;
+    background-color: pink;
+    padding: 50px;
+    text-align: center;
+}
+.container{
+    max-width:  800px;
+    margin:0 auto;
+}
+.container h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: rgb(172, 31, 66);
+}
+.content-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.contact-form{
+    text-align: left;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(219, 65, 91);
+    color: rgb(8, 8, 8);
+}
+input:focus,
+textarea:focus{
+    outline:none;
+    box-shadow: 0 0 8px #f14141;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(235, 100, 122);
+    color: rgb(138, 13, 34);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: pink;
+}
+.contact-info{
+    text-align: left;
+}
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: pink;
+}
+.contact-info p{
+    margin-bottom: 10px;
+color: pink;
+}
+.contact-info i{
+    color: pink;
+    margin-right: 10px;
+}
+
+/* PROJECT section */
+#PROJECT{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(175, 45, 67) ;
+}
