@@ -137,15 +137,15 @@ color: rgb(77, 15, 26);
     height: 650px;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: rgb(212, 94, 116);
 }
 #home::before{
-    content: "" ;
+    
     position: absolute;
     top: 0;
     left: 0;
-    background: url(image10.jpg); 
+    background: url(bg.jpg);
     height: 700px;
     width: 100%;
     opacity: .10;
